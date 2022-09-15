@@ -1,8 +1,8 @@
 :root {
-    /* Uncomment the code below and change the color scheme if desired https://www.w3schools.com/css/css3_variables.asp */
-    /* --primary: rgba(43, 91, 186, 0.6);
+    
+    --primary: rgba(43, 91, 186, 0.6);
     --light: rgb(255,255,255);
-    --greyish: rgb(116 121 129 / 80%); */
+    --greyish: rgb(116 121 129 / 80%); 
 }
 
 html, body {
@@ -11,15 +11,15 @@ html, body {
 }
 
 body {
-    background-color:rgb(14, 13, 13);
+    background-color:rgb(13, 14, 14);
 }
 
 a {
-    color: var(--light) !important;
+    color: var(--blue) !important;
 }
 
 .custom-resume {
-    background-color:var(--light);
+    background-color:var(--blue);
 }
 
 .custom-resume > div {
